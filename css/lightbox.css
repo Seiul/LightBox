@@ -1,0 +1,178 @@
+*{	margin:0px;
+	padding:0px;
+	border:0px;
+	list-style: none;
+	text-decoration: none;}
+
+#opacidad{
+	width: 100%;
+	height:1000%;
+	position: absolute;
+	display:none;
+	top:0px;
+	z-index:1;
+	background-color: rgba(0,0,0,0.8);
+}
+#fondo{width: 100%;
+	height:1000%;
+	position: absolute;
+	display:none;
+	top:0px;
+	z-index:1;}
+#lightbox{
+	width:800px;
+	height:600px;
+	overflow:hidden;
+	background-color:white; 
+	top:50px;
+	position: absolute;
+	left:-400px;
+	margin-left: 50%;
+}
+#cerrar{
+	position: absolute;
+	z-index: 1;
+	float: right;
+	border-radius: 50%;
+	width: 20px;
+	height: 20px;
+	top:40px;
+	margin-left: 390px;
+	left:50%;
+	background-color: grey;
+	box-shadow: 0px 2px 2px grey;
+	border: 2px solid white;
+	-webkit-transform: rotate(45deg);
+	-ms-transform: rotate(45deg);
+	-o-transform: rotate(45deg);
+	transform: rotate(45deg);
+}
+#cerrar p{
+	font-size: 26px;
+	text-align: center;
+	font-family: arial;
+	margin-top: -5px;
+}
+#cerrar a{
+	text-decoration: none;
+}
+.up{
+	width: 100%;
+	height: 480px;
+	position: absolute;
+	background-color: #eee;
+}
+.gran{
+	position: relative;
+	width: 500px;
+	height: 375px;
+	top:50px;
+	left:50px;
+	background-color: grey;
+}
+.imag{
+	display: block;
+	position: absolute;
+	width:500px;
+	height: auto;
+}
+.imagmini{
+	display: block;
+	position: relative;
+	float:left;
+	margin-left: 5px;
+	margin-right: 5px;
+	top:30px;
+	width:90px;
+}
+.titulo{
+	position: absolute;
+	width: 200px;
+	height: 40px;
+	top:50px;
+	margin-left: 580px;
+}
+.titulo p{
+	text-align: left;
+	font-size: 18px;
+	font-weight: bold;
+	color:black;
+	font-family: sans-serif;
+}
+.parrafo{
+	position: absolute;
+	width: 200px;
+	height: 350px;
+	top:100px;
+	margin-left: 580px;
+}
+.parrafo p{
+	text-align: left;
+	font-size: 16px;
+	color:grey;
+	font-family: sans-serif;
+}
+#menulight{
+	width: 100%;
+	height: 120px;
+	position: absolute;
+	bottom: 0px;
+	background-color: white;
+	box-shadow: 0px -10px 10px #ccc;
+}
+#hueco{
+	overflow:hidden;
+	width: 600px;
+	height: 150px;
+	background-color:;
+	position: relative;
+	left:50%;
+	margin-left: -300px;
+	top:-20px;
+}
+#peq{	
+	width: 1200px;
+	height: 100px;
+	z-index: 99;
+	background-color: ;
+	position: relative;
+	left:50%;
+	margin-left: -300px;
+	top:10px;
+	list-style: none;
+}
+li .mini{
+	list-style: none;
+}
+.botondir{
+	width: 30px;
+	height: 22px;
+	overflow: hidden;
+	background-color: transparent;
+	position: absolute;
+	z-index: 3;
+	top:50px;}
+#botonizda{
+	margin-right: 300px;
+	right:50%;
+	display:;
+}
+#botondcha{
+	margin-left: 300px;
+	left:50%;
+	display:;
+}
+.trian{
+	width: 0;
+    height: 0;
+    border-left: 25px solid transparent;  /* left arrow slant */
+    border-right: 25px solid transparent; /* right arrow slant */
+    border-bottom: 25px solid #fff;
+	position: relative;
+	float: left;
+	z-index: 100;
+	margin-right: -75px;
+	margin-left: 25px;
+	top:-10px;
+	display:block;
+}
