@@ -41,3 +41,23 @@ div.da-thumbs span {
 	border-bottom: 1px solid rgba(255,255,255,0.5);
 	box-shadow: 0 1px 0 rgba(0,0,0,0.1), 0 -10px 0 rgba(255,255,255,0.3);
 }
+@media (max-width: 750px){
+	.da-thumbs {
+		width: 700px;
+}
+@media (max-width: 600px){
+	.da-thumbs {
+		width: 600px;
+}
+@media (max-width: 500px){
+	.da-thumbs {
+		width: 500px;
+}
+@media (max-width: 400px){
+	.da-thumbs {
+		width: 400px;
+}
+@media (max-width: 320px){
+	.da-thumbs {
+		width: 320px;
+}

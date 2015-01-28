@@ -145,3 +145,38 @@ a{
 	margin: 0 auto;
 	background-color: green;
 }
+@media (max-width: 1220px){
+	.ampliar{
+		width:300px;
+}
+}
+@media (max-width: 1000px){
+	.ampliar{
+		width:350px;
+}
+}
+@media (max-width: 750px){
+	.ampliar{
+		width:280px;
+}
+}
+@media (max-width: 600px){
+	.ampliar{
+		width:400px;
+}
+}
+@media (max-width: 500px){
+	.ampliar{
+		width:300px;
+}
+}
+@media (max-width: 400px){
+	.ampliar{
+		width:280px;
+}
+}
+@media (max-width: 320px){
+	.ampliar{
+		width:220px;
+}
+}
